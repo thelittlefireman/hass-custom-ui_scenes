@@ -6,12 +6,12 @@ This custom ui is designed to summarize [script](https://home-assistant.io/compo
 Usually you set the [binary mqtt sensor](https://home-assistant.io/components/binary_sensor.mqtt/). by a [script](https://home-assistant.io/components/script/), that the custom ui is able to show the current state. 
 
 ## Installation
-* Download `/www/custom_ui/state-card-custom_scenes.html` to `<config-dir>/www/custom_ui/state-card-custom_scenes.html`
+* Download `/www/custom_ui/state-card-custom_scene.html` to `<config-dir>/www/custom_ui/state-card-custom_scene.html`
 * Add it to your `configuration.yaml`:
 ```yaml
 frontend:
   extra_html_url:
-    - /local/custom_ui/state-card-custom_scenes.html
+    - /local/custom_ui/state-card-custom_scene.html
 ```
 
 ## Configuration
